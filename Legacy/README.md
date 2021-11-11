@@ -141,10 +141,12 @@ windir=C:\WINDOWS
 
 Based on the USERPROFILE environment variable, it looks like we have system-level access.
 
-# Enumeration.2
+# Proof
 
 Find user.txt
+
 ![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Legacy/images/Pasted%20image%2020211111124708.png)
 
 Find root.txt
+
 ![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Legacy/images/Pasted%20image%2020211111124918.png)
