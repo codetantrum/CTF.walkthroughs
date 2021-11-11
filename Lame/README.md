@@ -136,7 +136,7 @@ msf6 exploit(unix/misc/distcc_exec) > exploit
 # Enumeration.2
 Find user.txt
 
-![[Pasted image 20211110102338.png]]
+![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Lame/images/Pasted%20image%2020211110102338.png)
 
 Copy Linpeas to target from local web server.
 Local:
@@ -196,4 +196,4 @@ uid=1(daemon) gid=1(daemon) euid=0(root) groups=1(daemon)
 
 
 # Proof
-![[Pasted image 20211110185307.png]]
+![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Lame/images/Pasted%20image%2020211110185307.png)
