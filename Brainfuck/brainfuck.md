@@ -342,4 +342,4 @@ root.txt
 
 root.txt
 
-![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Brainfuck/images/Pasted%20image%2020211112190033.png)
+![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Brainfuck/images/Pasted%20image%2020211112190033.png)
