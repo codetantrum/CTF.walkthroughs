@@ -303,8 +303,8 @@ C:\Windows\system32>
 # Proof
 user.txt
 
-![[Pasted image 20211113103833.png]]
+![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Blue/images/Pasted%20image%2020211113103833.png)
 
 root.txt
 
-![[Pasted image 20211113103918.png]]
+![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Blue/images/Pasted%20image%2020211113103918.png)
