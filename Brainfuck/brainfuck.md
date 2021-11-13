@@ -51,10 +51,12 @@ Browse to each hostname.
 
 ### HTTPS Enumeration
 At brainfuck.htb and www.brainfuck.htb we see a Wordpress site and get an email address, orestis@brainfuck.htb
-![[Pasted image 20211111171230.png]]
+
+![site1](https://github.com/codetantrum/walkthroughs/blob/master/Brainfuck/images/Pasted%20image%2020211111171230.png)
 
 At sup3rs3cr3t.brainfuck.htb we see a forum. 
-![[Pasted image 20211111171735.png]]
+
+![site2](https://github.com/codetantrum/walkthroughs/blob/master/Brainfuck/images/Pasted%20image%2020211111171735.png)
 
 Enumerate the Wordpress site with wpscan. 
 
@@ -148,12 +150,14 @@ Edited code:
 
 Browse to http://127.0.0.1/test.html and click "Login."
 Then browse to https://brainfuck.htb/wp-admin and find the admin dashboard.
-![[Pasted image 20211111180553.png]]
+
+![dashboard](https://github.com/codetantrum/walkthroughs/blob/master/Brainfuck/images/Pasted%20image%2020211111180553.png)
 
 I tried replacing theme page code and uploading a new plugin with reverse shell code written in PHP, however, the server does not appear to have write access to the filesystem. 
 
 In the Easy WP SMTP plugin, we find credentials for orestis. The password field is masked, but we can see the plaintext password using Inspect Element.
-![[Pasted image 20211111193417.png]]
+
+![password](https://github.com/codetantrum/walkthroughs/blob/master/Brainfuck/images/Pasted%20image%2020211111193417.png)
 
 orestis:kHGuERB29DNiNE
 
@@ -199,11 +203,13 @@ Regards
 ```
 
 Login to the forum as orestis. 
-![[Pasted image 20211111193930.png]]
+
+![forum](https://github.com/codetantrum/walkthroughs/blob/master/Brainfuck/images/Pasted%20image%2020211111193930.png)
 
 There is a conversation between orestis and the site admin regarding server SSH access. The discussion is moved to an encrypted thread which uses Vigenere cipher with key 'fuckmybrain' (borrowed from a write-up since cryptography is hard). In the thread, the admin provides a link to orestis SSH private key. Here's the decrypted link.
 https://10.10.10.17/8ba5aa10e915218697d1c658cdee0bb8/orestis/id_rsa
-![[Pasted image 20211111195735.png]]
+
+![cipher](https://github.com/codetantrum/walkthroughs/blob/master/Brainfuck/images/Pasted%20image%2020211111195735.png)
 
 Browse to the link and download the key. It is password protected. 
 ```
@@ -244,7 +250,7 @@ SSH into server as orestis
 
 user.txt
 
-![[Pasted image 20211111222306.png]]
+![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Brainfuck/images/Pasted%20image%2020211111222306.png)
 
 # Privilege Escalation
 
@@ -336,4 +342,4 @@ root.txt
 
 root.txt
 
-![[Pasted image 20211112190033.png]]
+![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Brainfuck/images/Pasted%20image%2020211112190033.png)
