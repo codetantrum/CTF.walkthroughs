@@ -30,7 +30,8 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ### HTTP
 
 The home page of the site is simple. 
-![[Pasted image 20211113123436.png]]
+
+![site](https://github.com/codetantrum/walkthroughs/blob/master/Shocker/images/Pasted%20image%2020211113123436.png)
 
 Nothing in the source code.
 ```
@@ -167,7 +168,7 @@ shelly@Shocker:/usr/lib/cgi-bin$
 
 user.txt
 
-![[Pasted image 20211113163523.png]]
+![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Shocker/images/Pasted%20image%2020211113163523.png)
 
 # Privilege Escalation
 
@@ -192,4 +193,4 @@ uid=0(root) gid=0(root) groups=0(root)
 
 root.txt
 
-![[Pasted image 20211113164349.png]]
+![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Shocker/images/Pasted%20image%2020211113164349.png)
