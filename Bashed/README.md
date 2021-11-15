@@ -28,7 +28,7 @@ Fuzzing, we found http://10.10.10.68/dev/phpbash.php which looks to be a php she
 
 ![site2](https://github.com/codetantrum/walkthroughs/blob/master/Bashed/images/Pasted%20image%2020211113203534.png)
 
-The output show us that this shell will not allow us to leverage the sudo privileges of the www-data user without a TTY shell. 
+The output shows us that this shell will not allow us to leverage the sudo privileges of the www-data user without a TTY shell. 
 ```
 www-data@bashed
 :/var/www/html/dev# sudo -l
