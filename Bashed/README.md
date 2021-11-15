@@ -21,11 +21,12 @@ PORT   STATE SERVICE VERSION
 
 ### HTTP
 Browsing to the site, we see some potentially useful information. 
-![[Pasted image 20211113203204.png]]
+
+![site1](https://github.com/codetantrum/walkthroughs/blob/master/Bashed/images/Pasted%20image%2020211113203204.png)
 
 Fuzzing, we found http://10.10.10.68/dev/phpbash.php which looks to be a php shell.
 
-![[Pasted image 20211113203534.png]]
+![site2](https://github.com/codetantrum/walkthroughs/blob/master/Bashed/images/Pasted%20image%2020211113203534.png)
 
 The output show us that this shell will not allow us to leverage the sudo privileges of the www-data user without a TTY shell. 
 ```
@@ -90,7 +91,7 @@ uid=1001(scriptmanager) gid=1001(scriptmanager) groups=1001(scriptmanager)
 
 user.txt 
 
-![[Pasted image 20211113224301.png]]
+![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Bashed/images/Pasted%20image%2020211113224301.png)
 
 # Privilege Escalation
 In looking around the file system, we notice a /scripts directory in /root. In it there is a python script owned by our user (scriptmanager) which produces a test.txt file owned by root. 
@@ -149,4 +150,4 @@ uid=0(root) gid=0(root) groups=0(root)
 
 root.txt
 
-![[Pasted image 20211114201829.png]]
+![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Bashed/images/Pasted%20image%2020211114201829.png)
