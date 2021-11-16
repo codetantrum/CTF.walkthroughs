@@ -88,7 +88,7 @@ C:\Users\kostas\Desktop>
 
 user.txt
 
-![[Pasted image 20211114204627.png]]
+![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Optimum/images/Pasted%20image%2020211114204627.png)
 
 # Privilege Escalation
 Copy the output of systeminfo locally for analysis with windows-exploit-suggester.
@@ -160,4 +160,4 @@ nt authority\system
 # Proof
 root.txt
 
-![[Pasted image 20211115195150.png]]
+![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Optimum/images/Pasted%20image%2020211115195150.png)
