@@ -105,7 +105,7 @@ $
 
 user.txt
 
-![[Pasted image 20211115210048.png]]
+![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Nibbles/images/Pasted%20image%2020211115210048.png)
 
 # Privilege Escalation
 We can run monitor.sh as root without any password.
@@ -169,4 +169,4 @@ uid=0(root) gid=0(root) groups=0(root)
 # Proof
 root.txt
 
-![[Pasted image 20211116195608.png]]
+![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Nibbles/images/Pasted%20image%2020211116195608.png)
