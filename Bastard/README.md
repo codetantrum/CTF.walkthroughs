@@ -142,8 +142,8 @@ nt authority\system
 # Proof
 user.txt
 
-![[Pasted image 20211117183833.png]]
+![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Bastard/images/Pasted%20image%2020211117183833.png)
 
 root.txt
 
-![[Pasted image 20211117183923.png]]
+![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Bastard/images/Pasted%20image%2020211117183923.png)
