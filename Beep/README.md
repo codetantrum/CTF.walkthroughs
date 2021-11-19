@@ -32,7 +32,7 @@ Service Info: Hosts:  beep.localdomain, 127.0.0.1, example.com, localhost; OS: U
 ### HTTP (80)
 Elastix VoIP service is served on TCP port 80 which is vulnerable to local file inclusion. We can grab the amportal.conf file with Burp (so that it's formatted) and see the database and admin user credentials in plaintext.
 
-![dashboard](https://github.com/codetantrum/walkthroughs/blob/master/Beep/images/Pasted%20image%2020211118194810.png)
+![burp](https://github.com/codetantrum/walkthroughs/blob/master/Beep/images/Pasted%20image%2020211118194810.png)
 
 asteriskuser:jEhdIekWmdjE
 admin:jEhdIekWmdjE
