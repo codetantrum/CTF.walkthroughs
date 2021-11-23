@@ -116,7 +116,7 @@ $chunk_size = 1400;
 $write_a = null;
 ```
 
-![[Pasted image 20211122081522.png]]
+![db.txt](https://github.com/codetantrum/walkthroughs/blob/master/Granny/images/Pasted%20image%2020211122081522.png)
 
 5. Setup a netcat listener and catch the reverse shell by browsing to http://10.10.10.43/department/manage.php?notes=files/ninevehNotes/../../../../../../var/tmp/hack.php
 
@@ -194,7 +194,7 @@ We save it locally and SSH to the server as amrois and login.
 
 user.txt
 
-![[Pasted image 20211122090733.png]]
+![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Granny/images/Pasted%20image%2020211122090733.png)
 
 # Privilege Escalation
 
@@ -257,4 +257,4 @@ uid=0(root) gid=0(root) groups=0(root)
 
 root.txt
 
-![[Pasted image 20211122094407.png]]
+![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Granny/images/Pasted%20image%2020211122094407.png)
