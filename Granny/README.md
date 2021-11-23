@@ -160,9 +160,9 @@ nt authority\system
 # Proof
 user.txt
 
-![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Arctic/images/Pasted%20image%2020211121195349.png)
+![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Granny/images/Pasted%20image%2020211121195349.png)
 
 
 root.txt
 
-![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Arctic/images/Pasted%20image%2020211121195444.png)
+![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Granny/images/Pasted%20image%2020211121195444.png)
