@@ -77,7 +77,7 @@ C:\ColdFusion8\runtime\bin>
 
 user.txt
 
-![[Pasted image 20211122202119.png]]
+![user.txt](https://github.com/codetantrum/walkthroughs/blob/master/Arctic/images/Pasted%20image%2020211122202119.png)
 
 
 # Privilege Escalation
@@ -111,4 +111,4 @@ nt authority\system
 # Proof
 root.txt
 
-![[Pasted image 20211122211625.png]]
+![root.txt](https://github.com/codetantrum/walkthroughs/blob/master/Arctic/images/Pasted%20image%2020211122211625.png)
